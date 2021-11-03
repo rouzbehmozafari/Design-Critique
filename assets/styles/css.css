@@ -33,6 +33,13 @@ a {
 }
 
 /* Header */
+.menuIcon {
+    width: 50px;
+    position: fixed;
+    top: 0;
+    display: none;
+}
+
 nav {
     display: flex;
     justify-content: space-around;
@@ -231,23 +238,37 @@ footer span + span {
     font-weight: bold;
 }
 
+@media screen and (max-width: 600px) {
+    nav {
+        display: none;
+    }
+    .menuIcon {
+        display: unset;
+    }
+    .price> p {
+        width: 90%;
+    }
+    
+    .price149 {
+        width: 100%;
+        padding: 40px;
+        text-align: center;
+    }
+    .deliverables , .how {
+        flex-wrap: wrap;
+    }
+    .deliverables img {
+        width: 100%; 
+    }
 
+    .how img {
+        width: 100%;
+    }    
+    .how article {
+        width: 100%;
+    }
+    .number28 {
+        padding-bottom: 200px;
+    }
+}
 
-/* 
-Deliverables (Font: TiemposHeadline-Semibold)
- (Font:Graphik-Medium)
-Design Report (Font: Graphik-Medium)
-Ways to Redesign (Font: Graphik-Medium)
-
-How it Works (Font: TiemposHeadline-Semibold)
-. (Font: Theinhardt-Lt)
-We will get back to you within 24 hours to discuss the process. (Font: Theinhardt-Lt)
- (Font: Theinhardt-Lt)
-Who We Are (Font: TiemposHeadline-Semibold)
-Design Critique is a team of independent art directors who work with the world's largest companies and have been recognized with international design awards. (Font: Theinhardt-Lt)
-Critique! (Font: TiemposHeadline-Semibold)
- (Font:Graphik-Medium)
-Have any questions? (Font: TiemposHeadline-Semibold)
-Get in touch with us via super@super.de  (Font: Graphik-Medium) 
-Farben: #2B2C2E /  #9FA2A7 / #27282A /  #848689 / #3D3E41 / #fff
-Fonts: Graphik, TiemposHeadline, Theinhardt  */
