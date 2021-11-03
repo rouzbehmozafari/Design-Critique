@@ -64,6 +64,7 @@ nav p {
     border: black solid 1.5px;
     border-radius: 5px;
     padding: 1px 25px;
+    padding-top: 4px;
 }
 
 header {
@@ -238,7 +239,7 @@ footer span + span {
     font-weight: bold;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
     nav {
         display: none;
     }
@@ -260,15 +261,24 @@ footer span + span {
     .deliverables img {
         width: 100%; 
     }
+    .deliverables article {
+        margin-top: 40px;
+    }
 
-    .how img {
-        width: 100%;
-    }    
     .how article {
         width: 100%;
     }
     .number28 {
         padding-bottom: 200px;
+    }
+    .how img {
+        width: 100%;}
+
+    .firstView p{
+        font-size: 30px;
+        font-family: Graphik-regular;
+        width: 90vw;
+        margin: auto auto;
     }
 }
 
