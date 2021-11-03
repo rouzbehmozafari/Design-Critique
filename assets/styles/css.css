@@ -37,6 +37,7 @@ a {
     width: 50px;
     position: fixed;
     top: 0;
+    left: 0;
     display: none;
 }
 
@@ -198,7 +199,7 @@ ol li {
 .percent p {
     display: inline-block;
     width: 320px;
-    line-height: 170%;
+    line-height: 130%;
     color:#9FA2A7 ;
     font-family: graphik-medium;
 }
@@ -230,6 +231,7 @@ ol li {
 
 footer {
     text-align: center;
+    margin-bottom: 20px;
 }
 
 footer img {
@@ -240,7 +242,7 @@ footer span + span {
 }
 
 @media screen and (max-width: 800px) {
-    nav {
+    nav ul {
         display: none;
     }
     .menuIcon {
@@ -282,6 +284,15 @@ footer span + span {
         font-family: Graphik-regular;
         width: 90vw;
         margin: auto auto;
+    }
+    .Critique {
+        width: 90%; 
+    }
+    .percent p {
+        font-size: 15px;
+    }
+    .price149 {
+        margin-top: 50px;
     }
 }
 
