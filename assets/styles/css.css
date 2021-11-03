@@ -268,6 +268,9 @@ footer span + span {
     .how article {
         width: 100%;
     }
+    .how h1 {
+        font-size: 30px;
+    }
     .number28 {
         padding-bottom: 200px;
     }
