@@ -1,0 +1,253 @@
+/* General Styles */
+@font-face {
+    font-family: Graphik-Regular;
+    src: url(../fonts/Graphik-Regular.woff);
+  }
+@font-face {
+    font-family: Graphik-Medium;
+    src: url(../fonts/Graphik-Medium.ttf);
+  }
+  @font-face {
+    font-family: Theinhardt;
+    src: url(../fonts/Theinhardt-Lt.woff);
+  }
+  @font-face {
+    font-family: TiemposHeadline;
+    src: url(../fonts/TiemposHeadline-Semibold.woff);
+  }
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: Theinhardt;
+}
+
+body {
+    max-width: 1440px;
+}
+a {
+    color: black;
+}
+
+/* Header */
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Graphik-Regular;
+}
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    padding-right: 15px;
+}
+
+nav p {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: graphik;
+}
+
+.getS {
+    border: black solid 1.5px;
+    border-radius: 5px;
+    padding: 1px 25px;
+}
+
+header {
+    margin: 10px;
+    margin-bottom: 60px;
+}
+/* Main */
+.heroImg {
+    width: 100%;
+}
+.firstView {
+    text-align: center;
+}
+.firstView p{
+    font-size: 40px;
+    font-family: Graphik-regular;
+}
+
+/* Price section */
+
+.price {
+    display: flex;
+    justify-content: left;
+    margin: 50px auto;
+    flex-wrap: wrap;
+    padding: 10%;
+}
+
+.price> p {
+    width: 70%;
+    font-family: Graphik-Medium;
+    line-height: 170%;
+}
+
+.price149 {
+    width: 200px;
+    padding-left: 30px;
+}
+.dollar149 {
+    font-size: 40px;
+    font-weight: bold;
+}
+.priceDesc {
+    color: #9FA2A7;
+}
+
+
+/* deliverables */
+
+.deliverables {
+    padding: 10%;
+    display: flex;
+    line-height: 160%;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.deliverables img {
+    width: 50%;
+}
+.deliverables h1 {
+    margin-bottom:45px;
+}
+.deliverables p {
+    color: #9FA2A7;
+}
+.deliverables  article {
+    padding-left: 15px;
+}
+p {
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: TiemposHeadline;
+}
+h2 {
+    font-family: Graphik-Medium;
+    font-size: 20px;
+    margin: 15px auto;
+}
+
+/* How */
+
+.how {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10%;
+    background-color:rgb(241, 241, 244) ;
+    flex-wrap: wrap;
+}
+.how p , ol {
+    color: #9FA2A7;
+}
+.how img {
+    width: 50%;
+}
+ol li {
+    list-style:decimal ;
+    margin-left: 30px;
+}
+.how article {
+    padding: 50px;
+    width: 50%;
+}
+.how h1 {
+    margin: 20px auto;
+}
+
+/* Critique */
+
+.Critique {
+    margin: 10% auto;
+    text-align: center;
+    width: 50%;
+    
+}
+.Critique p {
+    color: #9FA2A7;
+}
+.Critique h1 {
+    margin-bottom: 30px;
+}
+
+/* percent */
+.percent {
+    margin: 10%;
+    
+}
+.percent p {
+    display: inline-block;
+    width: 320px;
+    line-height: 170%;
+    color:#9FA2A7 ;
+    font-family: graphik-medium;
+}
+.conversion {
+    width: 40%;
+    position:absolute;
+    right: 0;
+    bottom: 0;
+
+}
+
+.number28 {
+    background-image: url(../images/28.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 170%;
+    padding-bottom: 400px;
+    position: relative;
+}
+
+/* line */
+
+.line {
+    border: solid 1px #9FA2A7 ;
+    margin: 5%;
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+}
+
+footer img {
+    width: 10%;
+}
+footer span + span {
+    font-weight: bold;
+}
+
+
+
+/* 
+Deliverables (Font: TiemposHeadline-Semibold)
+ (Font:Graphik-Medium)
+Design Report (Font: Graphik-Medium)
+Ways to Redesign (Font: Graphik-Medium)
+
+How it Works (Font: TiemposHeadline-Semibold)
+. (Font: Theinhardt-Lt)
+We will get back to you within 24 hours to discuss the process. (Font: Theinhardt-Lt)
+ (Font: Theinhardt-Lt)
+Who We Are (Font: TiemposHeadline-Semibold)
+Design Critique is a team of independent art directors who work with the world's largest companies and have been recognized with international design awards. (Font: Theinhardt-Lt)
+Critique! (Font: TiemposHeadline-Semibold)
+ (Font:Graphik-Medium)
+Have any questions? (Font: TiemposHeadline-Semibold)
+Get in touch with us via super@super.de  (Font: Graphik-Medium) 
+Farben: #2B2C2E /  #9FA2A7 / #27282A /  #848689 / #3D3E41 / #fff
+Fonts: Graphik, TiemposHeadline, Theinhardt  */
